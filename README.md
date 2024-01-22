@@ -4,7 +4,6 @@
 Criei um portifolio profissional usando React e Tailwind css 
 ## 👋 Introdução 
 O objetivo era criar uma interface agradavel, onde recrutadores conseguiriam ascessar os meus conhecimentos em tecnologia front end para possivel seleção de recrutamento para estágio ou emprego na area. Usando o tailwind estilizei toda interface pelos mesmos padrões de cor, usei o swiper para criar um slides das dos meus projetos pessoais e layout da interface para ascesso mobile.
-###💡 Pre-Requisitos
 ```
 https://swiperjs.com/react
 ```
