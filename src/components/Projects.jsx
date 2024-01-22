@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
 import {Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination } from 'swiper/modules';
+
 import project1 from '../assets/imgs/project1.png'
 import project2 from '../assets/imgs/project2.png'
 import project3 from '../assets/imgs/project3.png'
@@ -14,6 +14,7 @@ import projectsImg from '../assets/imgs/projects-img.png'
 
 import 'swiper/css';
 import 'swiper/css/pagination'
+
 
 const Projects = () => {
   const projects = [
@@ -92,7 +93,7 @@ const Projects = () => {
         pagination={{
           clickable: true,
         }}
-        modules={[Pagination]}
+        modules={{}}
         >
           {projects.map((project_info, i) => (
               <SwiperSlide key={i}>
