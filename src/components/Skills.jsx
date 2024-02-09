@@ -11,7 +11,7 @@ const Skills = () => {
     },
     {
       logo: 'logo-css3',
-      level: 'Intermediario',
+      level: 'Avançado',
       count: 73,
       name: 'CSS3',
     },

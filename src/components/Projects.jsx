@@ -32,21 +32,21 @@ const Projects = () => {
     },
     {
       img: project3,
-      name: 'Preservação Ambiental',
-      github_link: 'https://github.com/PauloAquarius0299/animais-ong-website',
-      MEUS_PROJETOS: 'https://pauloaquarius0299.github.io/animais-ong-website/',
+      name: 'TechWaves Website',
+      github_link: 'https://github.com/PauloAquarius0299/techwaves-ecommerce-website?tab=readme-ov-file',
+      MEUS_PROJETOS: 'https://techwaves-pcdev.netlify.app/',
     },
     {
       img: project4,
-      name: 'Viagem Brasil',
-      github_link: 'https://github.com/PauloAquarius0299/travell-brazil-website?tab=readme-ov-file',
-      MEUS_PROJETOS: 'https://viagem-brasil-website.netlify.app/',
+      name: 'GymSpace Website',
+      github_link: 'https://github.com/PauloAquarius0299/gymspace-website-interface?tab=readme-ov-file',
+      MEUS_PROJETOS: 'https://gymspace-pcdev-website.netlify.app/',
     },
     {
       img: project5,
-      name: 'Lar Perfeito',
-      github_link: 'https://github.com/PauloAquarius0299/larperfeito-website?tab=readme-ov-file',
-      MEUS_PROJETOS: 'https://larperfeito-web.netlify.app/',
+      name: 'Template Card Tenis',
+      github_link: 'https://github.com/PauloAquarius0299/shopping-shoes-card?tab=readme-ov-file',
+      MEUS_PROJETOS: 'https://shopping-shoes-web.netlify.app/template',
     },
     {
       img: project6,
@@ -56,9 +56,9 @@ const Projects = () => {
     },
     {
       img: project7,
-      name: 'GameStore Website',
-      github_link: 'https://github.com/PauloAquarius0299/game-webstory-mobile',
-      MEUS_PROJETOS: 'https://super-klepon-cc7b54.netlify.app/',
+      name: 'SaborArt Açai Delivery',
+      github_link: 'https://github.com/PauloAquarius0299/acai-website-delivery',
+      MEUS_PROJETOS: 'https://saborartacai-delivery.netlify.app/',
     },
   ]
 

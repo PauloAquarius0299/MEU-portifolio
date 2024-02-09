@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
-import banner from '../assets/imgs/banner.png';
+import banner from '../assets/imgs/bannernew.png';
 import {FaLinkedin, FaGithub, FaTwitter, FaInstagram} from 'react-icons/fa';
 
 const Hero = () => {
