@@ -17,13 +17,15 @@ const Hireme = () => {
         <div>
           <h2 className='text-2xl font-semibold'>Porque você deve me contratar?</h2>
           <p className='lg:text-left text-justify max-w-lg text-sm mt-4 text-gray-400 leading-6'>
-            Estou a disposição para contrato de trabalho em qualquer horário e dia, posso usar das minhas habilidades em HTML, CSS, JavaScript e React para desenvolver interfaces para seu site pessoal, ecommerce, dashboard, login page, aplicativo web, jogos etc... Além do meu conhecimento para machine learning em Python.
+            Estou a disposição para contrato de trabalho em qualquer horário e dia, sou um programador versatil que gosta de usar da minha capacidade criativa para construir softwares na web e fazer diferença no mercado de tecnologia. 
             <br />
-            Sou versatil e com minhas habilidades em frameworks e bibiotecas como Tailwind, Sass, BootsTrap, Next.js, Vite, Vue.js e Angular acrescentaria a melhor estilização e praticidade para desenvolver satisfatorias interfaces para seu site pessoal, empresa e até conhecimento pessoal.
+            Possuo habilidades de dois anos em HTML e CSS, e de um ano em JavaScript, React e Angular são frameworks na qual adquiri habilidades sólidas, especialmente React.Domínio da integração de API Rest em interfaces através do GraphQL. Conhecimentos básicos na utilização da ferramenta Firebase, especialmente na hospedagem de bancos de dados não relacionais NoSQL, trazendo eficiência e escalabilidade para os projetos que desenvolvo.Utilização das extensões em TypeScript, Tailwind, Next, Vite, Sass e Bootstrap, os quais utilizo para facilitar a criação e estilização de interfaces para web, desktop e mobile. Possuo conhecimentos básicos em Python para o desenvolvimento de soluções no BackEnd, agregando versatilidade aos meus conhecimentos.
+            <br />
+            
             <br />
             Estou a disposição para qualquar contato pelas redes-sociais, email ou meu numero
           </p>
-          <button id='contacts' className='btn-primary mt-10 hover:bg-cyan-400'>Meus Contatos</button>
+          
         </div>
         <img src={hireMe} alt="" 
         className='h-60  -right-3 object-cover'

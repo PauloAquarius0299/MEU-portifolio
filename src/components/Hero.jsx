@@ -3,6 +3,7 @@ import React from 'react';
 import banner from '../assets/imgs/bannernew.png';
 import {FaLinkedin, FaGithub, FaTwitter, FaInstagram} from 'react-icons/fa';
 
+
 const Hero = () => {
   
   return (
@@ -25,9 +26,11 @@ const Hero = () => {
           </h1>
           <p></p>
           <h4 className='md:text-1xl text-lg md:leading-normal leading-6 mt-4 semi-bold text-gray-400'>Sou um muito criativo e pratico, onde minha meta como desenvolvedor fron-end é criar interfaces agradáveis e ituitivas que ofereça uma jornada satisfatória para os usuários. </h4>
-          <a href="../assets/Paulo_Cesar_curriculo_PT.pdf" download>
-                <button className='btn-primary hover:bg-blue-400 mt-10'>Download Curriculo</button>
-              </a>
+          <a href="../assets/Paulo_Cesar_curriculo_PT.pdf" download="Paulo_Cesar_curriculo_PT.pdf">
+    <button className='btn-primary hover:bg-blue-400 mt-10'>Download Currículo</button>
+</a>
+
+
           <div className='mt-8 text-3xl  flex items-center md:justify-start justify-center gap-5'>
             <a 
             href="https://www.linkedin.com/in/paulo-cesar-92a95623a/"

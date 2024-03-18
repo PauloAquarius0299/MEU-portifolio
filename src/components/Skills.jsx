@@ -12,13 +12,13 @@ const Skills = () => {
     {
       logo: 'logo-css3',
       level: 'Avançado',
-      count: 73,
+      count: 84,
       name: 'CSS3',
     },
     {
       logo: 'logo-javascript',
       level: 'Intermediario',
-      count: 62,
+      count: 68,
       name: 'JavaScript',
     },
     {
@@ -28,11 +28,41 @@ const Skills = () => {
       name: 'React',
     },
     {
+      logo: 'logo-firebase',
+      level: 'intermediario',
+      count: 55,
+      name: 'Firebase'
+    },
+    {
+      logo: 'logo-typescript',
+      level: 'Intermediario',
+      count: 60,
+      name: 'TypeScript'
+    },
+    {
+      logo: 'logo-nodejs',
+      level: 'intermediario',
+      count: 36,
+      name: 'NodeJs'
+    },
+    {
       logo: 'logo-python',
       level: 'Basico',
       count: 25,
       name: 'Python',
-    }
+    },
+    {
+      logo: 'logo-nextjs',
+      level: 'Basico',
+      count: 25,
+      name: 'NextJs'
+    },
+    {
+      logo: 'logo-angular',
+      level: 'Basico',
+      count: 15,
+      name: 'Angular'
+    },
   ]
 
   return (

@@ -4,8 +4,8 @@ import aboutImg from '../assets/imgs/about.png'
 
 const About = () => {
   const info = [
-    {text: 'Meses de Experiência', count: '06'},
-    {text: 'Projetos Realizados', count: '30'},
+    {text: 'Ano de Experiência', count: '01'},
+    {text: 'Projetos Realizados', count: '50'},
   ]
   return (
     <section id='about' className='py-10 text-white'>
@@ -37,9 +37,9 @@ const About = () => {
               </div>
               <br />
               <br />
-              <a href="../assets/Paulo_Cesar_curriculo_PT.pdf" download>
-                <button className='btn-primary hover:bg-blue-400'>Download CV</button>
-              </a>
+              <a href="../assets/Paulo_Cesar_curriculo_PT.pdf" download="Paulo_Cesar_curriculo_PT.pdf">
+    <button className='btn-primary hover:bg-blue-400 mt-10'>Download Currículo</button>
+</a>
             </div>
           </div>
           <div className='flex-1 md:mt-0 mt-6 flex justify-center items-center'>

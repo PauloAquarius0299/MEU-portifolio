@@ -2,15 +2,14 @@
 import React from 'react';
 import {Swiper, SwiperSlide } from 'swiper/react';
 
-import project1 from '../assets/imgs/project1.png'
+import project1 from '../assets/imgs/project-1.png'
 import project2 from '../assets/imgs/project2.png'
 import project3 from '../assets/imgs/project3.png'
 import project4 from '../assets/imgs/project4.png'
 import project5 from '../assets/imgs/project5.png'
 import project6 from '../assets/imgs/project6.png'
 import project7 from '../assets/imgs/project7.png'
-import projectsImg from '../assets/imgs/projects-img.png'
-
+import project8 from '../assets/imgs/project8.png'
 
 import 'swiper/css';
 import 'swiper/css/pagination'
@@ -20,15 +19,15 @@ const Projects = () => {
   const projects = [
     {
       img: project1,
-      name: 'Alugel de Carros',
-      github_link: 'https://github.com/PauloAquarius0299/carros-aluguel-website',
-      MEUS_PROJETOS: 'https://rococo-cupcake-cb68ca.netlify.app/',
+      name: 'MovieFlix Streaming',
+      github_link: 'https://github.com/PauloAquarius0299/movieflix-web-app',
+      MEUS_PROJETOS: 'https://movieflix-paulodev.netlify.app/',
     },
     {
       img: project2,
-      name: 'Confetaria de Bolos',
-      github_link: 'https://github.com/PauloAquarius0299/Cake-website',
-      MEUS_PROJETOS: 'https://tranquil-fox-d8b7c2.netlify.app/',
+      name: 'Italian Restaurante',
+      github_link: 'https://github.com/PauloAquarius0299/italian-restaurante-web?tab=readme-ov-file',
+      MEUS_PROJETOS: 'https://italianrestaurant-web.netlify.app//',
     },
     {
       img: project3,
@@ -38,27 +37,33 @@ const Projects = () => {
     },
     {
       img: project4,
-      name: 'GymSpace Website',
-      github_link: 'https://github.com/PauloAquarius0299/gymspace-website-interface?tab=readme-ov-file',
-      MEUS_PROJETOS: 'https://gymspace-pcdev-website.netlify.app/',
+      name: 'Energizar Envolve',
+      github_link: 'https://github.com/PauloAquarius0299/gym-typescript-project?tab=readme-ov-file',
+      MEUS_PROJETOS: 'https://energizar-evolve.netlify.app/',
     },
     {
       img: project5,
-      name: 'Template Card Tenis',
-      github_link: 'https://github.com/PauloAquarius0299/shopping-shoes-card?tab=readme-ov-file',
-      MEUS_PROJETOS: 'https://shopping-shoes-web.netlify.app/template',
+      name: 'Travell Brasil',
+      github_link: 'https://github.com/PauloAquarius0299/travell-brazil-website?tab=readme-ov-file',
+      MEUS_PROJETOS: 'https://viagem-brasil-website.netlify.app/',
     },
     {
       img: project6,
-      name: 'Satellite Website',
-      github_link: 'https://github.com/PauloAquarius0299/satellite-website?tab=readme-ov-file',
-      MEUS_PROJETOS: 'https://satellite-website-info.netlify.app/',
+      name: 'Card Shopping',
+      github_link: 'https://github.com/PauloAquarius0299/shopping-clothing-card',
+      MEUS_PROJETOS: 'https://shopcardweb.netlify.app/',
     },
     {
       img: project7,
       name: 'SaborArt Açai Delivery',
       github_link: 'https://github.com/PauloAquarius0299/acai-website-delivery',
       MEUS_PROJETOS: 'https://saborartacai-delivery.netlify.app/',
+    },
+    {
+      img: project8,
+      name: 'PetPlaza Web',
+      github_link: 'https://github.com/PauloAquarius0299/petplaza-website?tab=readme-ov-file',
+      MEUS_PROJETOS: 'https://petplaza-website.netlify.app/',
     },
   ]
 
@@ -73,60 +78,60 @@ const Projects = () => {
       </div>
       <br />
       {/*PROJETOS*/}
-      <div className='flex max-w-6xl px-5 mx-auto items-center relative'>
-      <div className='lg:w-2/3 w-full'>
-        <Swiper
-        slidesPerviw={1.2}
-        spaceBetween={20}
-        onSlideChange={() => console.log('slide change')}
-        onSwiper={(swiper) => console.log(swiper)}
-          breakpoints={{
-          768: {
-            slidesPerView: 2,
-          }
-          
-        }}
-        loop={true}
-        autoplay={{
-          delay:3000,
-        }}
-        pagination={{
-          clickable: true,
-        }}
-        modules={{}}
-        >
-          {projects.map((project_info, i) => (
-              <SwiperSlide key={i}>
-                <div className="h-fit w-full p-4 bg-slate-700 rounded-xl">
-                  <img src={project_info.img} alt="" className="rounded-lg" />
-                  <h3 className="text-xl my-4">{project_info.name}</h3>
-                  <div className="flex gap-3">
-                    <a
-                      href={project_info.github_link}
-                      target="_blank"
-                      className="text-white hover:bg-cyan-600 bg-gray-800 px-2 py-1 inline-block" rel="noreferrer"
-                    >
-                      Github
-                    </a>
-                    <a
-                      href={project_info.MEUS_PROJETOS}
-                      target="_blank"
-                      className="text-white hover:bg-cyan-600 bg-gray-800 px-2 py-1 inline-block" rel="noreferrer"
-                    >
-                      VER O PROJETO
-                    </a>
+      
+        <div className='flex justify-center'>
+        <div className='lg:w-2/3 w-full'>
+
+          <Swiper
+          slidesPerviw={1.2}
+          spaceBetween={20}
+          onSlideChange={() => console.log('slide change')}
+          onSwiper={(swiper) => console.log(swiper)}
+            breakpoints={{
+            768: {
+              slidesPerView: 2,
+            }
+        
+          }}
+          loop={true}
+          autoplay={{
+            delay:3000,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          modules={{}}
+          >
+            {projects.map((project_info, i) => (
+                <SwiperSlide key={i}>
+                  <div className="h-fit w-full  p-4 bg-slate-700 rounded-xl">
+                    <img src={project_info.img} alt="projetos" className="rounded-lg " />
+                    <h3 className="text-xl my-4">{project_info.name}</h3>
+                    <div className="flex gap-3">
+                      <a
+                        href={project_info.github_link}
+                        target="_blank"
+                        className="text-white hover:bg-cyan-600 bg-gray-800 px-2 py-1 inline-block" rel="noreferrer"
+                      >
+                        Github
+                      </a>
+                      <a
+                        href={project_info.MEUS_PROJETOS}
+                        target="_blank"
+                        className="text-white hover:bg-cyan-600 bg-gray-800 px-2 py-1 inline-block" rel="noreferrer"
+                      >
+                        VER O PROJETO
+                      </a>
+                    </div>
                   </div>
-                </div>
-              </SwiperSlide>
-            ))}
-            
-          
-        </Swiper>
-      </div>
-      <div className='lg:block hidden'>
-        <img src={projectsImg} alt="" style={{ marginLeft: '60px' }} />
-      </div>
-      </div>
+                </SwiperSlide>
+              ))}
+        
+        
+          </Swiper>
+        </div>
+        </div>
+        
       
     </section>
   )
