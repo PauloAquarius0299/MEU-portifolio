@@ -19,15 +19,15 @@ const Projects = () => {
   const projects = [
     {
       img: project1,
-      name: 'MovieFlix Streaming',
-      github_link: 'https://github.com/PauloAquarius0299/movieflix-web-app',
-      MEUS_PROJETOS: 'https://movieflix-paulodev.netlify.app/',
+      name: 'ChatSpace Web',
+      github_link: 'https://github.com/PauloAquarius0299/chatspace-app-fullstack?tab=readme-ov-file',
+      MEUS_PROJETOS: 'https://chatspace-app-fullstack.onrender.com/login',
     },
     {
       img: project2,
-      name: 'Italian Restaurante',
-      github_link: 'https://github.com/PauloAquarius0299/italian-restaurante-web?tab=readme-ov-file',
-      MEUS_PROJETOS: 'https://italianrestaurant-web.netlify.app//',
+      name: 'ViageReserve',
+      github_link: 'https://github.com/PauloAquarius0299/viagereserve-app',
+      MEUS_PROJETOS: 'https://www.linkedin.com/feed/update/urn:li:activity:7190695008222515200/',
     },
     {
       img: project3,
@@ -37,15 +37,15 @@ const Projects = () => {
     },
     {
       img: project4,
-      name: 'Energizar Envolve',
-      github_link: 'https://github.com/PauloAquarius0299/gym-typescript-project?tab=readme-ov-file',
-      MEUS_PROJETOS: 'https://energizar-evolve.netlify.app/',
+      name: 'Italian Restaurant',
+      github_link: 'https://github.com/PauloAquarius0299/italian-restaurante-web?tab=readme-ov-file',
+      MEUS_PROJETOS: 'https://italianrestaurant-web.netlify.app/',
     },
     {
       img: project5,
-      name: 'Travell Brasil',
-      github_link: 'https://github.com/PauloAquarius0299/travell-brazil-website?tab=readme-ov-file',
-      MEUS_PROJETOS: 'https://viagem-brasil-website.netlify.app/',
+      name: 'CartShopping-Striper',
+      github_link: 'https://github.com/PauloAquarius0299/CartShopping-Striper?tab=readme-ov-file',
+      MEUS_PROJETOS: 'https://www.linkedin.com/feed/update/urn:li:activity:7188638878151434240/',
     },
     {
       img: project6,
@@ -56,14 +56,14 @@ const Projects = () => {
     {
       img: project7,
       name: 'SaborArt Açai Delivery',
-      github_link: 'https://github.com/PauloAquarius0299/acai-website-delivery',
-      MEUS_PROJETOS: 'https://saborartacai-delivery.netlify.app/',
+      github_link: 'https://github.com/PauloAquarius0299/saborartacai-react-new/tree/main',
+      MEUS_PROJETOS: 'https://saborartacai-novo.netlify.app/',
     },
     {
       img: project8,
-      name: 'PetPlaza Web',
-      github_link: 'https://github.com/PauloAquarius0299/petplaza-website?tab=readme-ov-file',
-      MEUS_PROJETOS: 'https://petplaza-website.netlify.app/',
+      name: 'MovieFlix',
+      github_link: 'https://github.com/PauloAquarius0299/movieflix-web-app',
+      MEUS_PROJETOS: 'https://movieflix-paulodev.netlify.app/',
     },
   ]
 

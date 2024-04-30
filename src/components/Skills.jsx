@@ -1,67 +1,75 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
+import { DiMongodb } from "react-icons/di";
+
 
 const Skills = () => {
   const skills =[
     {
       logo: 'logo-html5',
       level: 'Avançado',
-      count: 88,
+      count: 100,
       name: 'HTML5',
     },
     {
       logo: 'logo-css3',
       level: 'Avançado',
-      count: 84,
+      count: 100,
       name: 'CSS3',
     },
     {
       logo: 'logo-javascript',
       level: 'Intermediario',
-      count: 68,
+      count: 100,
       name: 'JavaScript',
     },
     {
       logo: 'logo-react',
       level: 'Intermediario',
-      count: 68,
+      count: 100,
       name: 'React',
     },
     {
       logo: 'logo-firebase',
       level: 'intermediario',
-      count: 55,
+      count: 100,
       name: 'Firebase'
     },
     {
-      logo: 'logo-typescript',
+      logo: <DiMongodb />,
       level: 'Intermediario',
-      count: 60,
-      name: 'TypeScript'
+      count: 100,
+      name: 'MongoDB'
     },
     {
       logo: 'logo-nodejs',
       level: 'intermediario',
-      count: 36,
+      count: 100,
       name: 'NodeJs'
     },
     {
-      logo: 'logo-python',
+      logo: 'logo-typescript',
       level: 'Basico',
-      count: 25,
-      name: 'Python',
-    },
-    {
-      logo: 'logo-nextjs',
-      level: 'Basico',
-      count: 25,
-      name: 'NextJs'
+      count: 100,
+      name: 'TypeScript'
     },
     {
       logo: 'logo-angular',
       level: 'Basico',
-      count: 15,
+      count: 100,
       name: 'Angular'
+    },
+    {
+      logo: 'logo-python',
+      level: 'Basico',
+      count: 50,
+      name: 'Python',
+    },
+    {
+      logo: 'logo-express',
+      level: 'Basico',
+      count: 50,
+      name: 'Expressjs',
     },
   ]
 
@@ -92,9 +100,9 @@ const Skills = () => {
                     <ion-icon name={skill.logo}></ion-icon>
                   </div>
                 </div>
-                <p className='text-xl mt-3'>{skill.level}</p>
+                <p className='text-xl mt-3 font-semibold text-violet-700'>{skill.name}</p>
                 <br />
-                <p className='text-violet-700 font-semibold'>{skill.name}</p>
+                
               </div>
             ))
           }
